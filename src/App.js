@@ -115,7 +115,7 @@ const MyForm = () => {
                 boxSizing: 'border-box'
             }}
                   onSubmit={handleSubmit}>
-                <h2 style={{color: '#fff'}}>Register Admin</h2>
+                <h2 style={{color: '#fff'}}>Register as Admin</h2>
                 <div style={{width: '100%', display: 'flex', flexDirection: 'column', boxSizing: 'border-box'}}>
                     <label style={{color: '#fff', fontWeight: 'bold'}}>Email</label>
                     <Field name="email" component={FieldInput} placeholder="example@email.com"/>
